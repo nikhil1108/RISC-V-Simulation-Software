@@ -1,0 +1,50 @@
+CS-204 project, RISC-V SIMULATOR.
+Languages:- C++ 
+
+TEAM MEMBERS:- 
+            Abhishek Balu     :- 2018csb1065
+            Dilpreet Singh    :- 2018csb1085
+            Nikhil            :- 2018csb1108
+            Rasanpreet Singh  :- 2018csb1173
+            
+
+DIRECTORIES:-
+  |
+  |- src
+      |- phase1.cpp
+      |- phase2.cpp
+      |- phase3.cpp
+  |- Assembly Codes
+      |
+      |- factorial.asm
+
+
+HOW TO RUN:-
+       On the terminal :-
+
+       g++ phase1.cpp -o ./a
+        ./a
+
+
+Phase 1:-
+Parsed the input file(.asm) and convert it into machine code.
+
+Phase 2:-
+Implemented data path and control paths to run the Instructions.
+Implemented all stages i.e. Fetch, Execute, Decode, Memory, Writeback
+Implemented inter state buffers, memory unit and register files for the same
+
+Phase 3:-
+Pipelined/(Unpipelined) Stalling, Forwarding, Static Branch Prediction.
+
+
+FEATURES:-
+    Functionality to switch between 
+        1. Non- pipelined
+        2. Pipelined with stalls
+        3. Pipelined with Data forwarding
+  
+    Branch Prediction : Static and Always Not Taken
+    Misprediction Penalty : 2 stalls
+
+   
